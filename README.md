@@ -7,7 +7,7 @@ Demo of the financial platform with token trading support via integration with t
 ## Prerequisites
 
 - Node.js
-- npm or yarn
+- Package manager (e.g. yarn or npm)
 - DBMS (e.g. PostgreSQL)
 
 ## Installation
@@ -26,7 +26,7 @@ Demo of the financial platform with token trading support via integration with t
    ```bash
    npm install
    ```
-3. Set up environment variables by creating **.env** file from **.env.template**. All variables are required.
+3. Set up environment variables by creating ```.env``` file from ```.env.template```. All variables are required.
 
 4. Prepare database (create tables and insert initial data):
    ```bash
@@ -37,7 +37,7 @@ Demo of the financial platform with token trading support via integration with t
    npm run prepare_db
    ``` 
 
-## Running API server
+## Run API server
 ```bash
 yarn start
 ```
@@ -47,7 +47,7 @@ npm start
 ```
 
 
-## Running tests
+## Run unit tests
 ```bash
 yarn test
 ```
@@ -56,5 +56,5 @@ or
 npm test
 ```
 
-## Viewing documentation
+## View documentation
 Open your browser and navigate to http://localhost:5000/docs (use the port you have configured).
